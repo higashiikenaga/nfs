@@ -18,9 +18,10 @@ body{
 }
 
 .top_img{
-    padding-top: 40vh;
+    height: 500px;
     background-image: url(img/ロゴ.png);
     background-size:cover;
+    background-position: center;
 }
 
 .top{
@@ -45,7 +46,7 @@ p{
 
 
 span{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 s{
@@ -59,7 +60,7 @@ s{
 
 a{
     text-decoration: none;
-    color: rgb(0, 89, 255);
+    color: rgb(0, 39, 255);
     text-shadow: 1px 1px 10px rgb(129, 129, 129);
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 400;
@@ -88,6 +89,11 @@ a > img{
 
 .img_main > img{
     width: 30%;
+}
+
+.border{
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 footer{
