@@ -46,7 +46,14 @@
         <p><span class="fw6">ニコふぁんtalk</span>|回ごとに違うテーマで東池なーがとゲストが語ります。</p>
         <p class="i gray">そのほか、放送中にCMやゲームもあります。是非ご覧ください。</p>
         <div class="outline pa3">
-            <h2>放送リスト</h2>
+          <h2 class="f2 white bg-dark-blue">お知らせ</h2>
+          <li class="flex">
+            <ul class="outline w-25 pa3 mr2"><span class="fw6">レギュラー出演者・スタッフ募集(2024/9/9)</span><br>毎週登場してくれる出演者とスタッフの方を募集します。出演者は喋りに自信がある方、スタッフはスライドや動画の制作、企画に自信がある方を中心にどなた様でも構いません。</ul>        
+            <ul class="outline w-25 pa3 mr2"><span class="fw6">初回放送においてツイートを無断紹介した件について(2024/9/9)</span><br>確認を取る前に放送日が来てしまい、無断でツイートを紹介することになってしまい申し訳ございませんでした。 今後はリプ欄へ確認を行います。ご了承ください。</ul>        
+          </li>
+      </div>
+        <div class="outline pa3">
+            <h2 class="f2 white bg-dark-blue">放送リスト</h2>
             <div class="flex">
                 <div class="outline w-25 pa3 mr2"><a class="mw-50" href="https://www.nicovideo.jp/watch/sm44076705?ref=garage_share_other"><img src="img/ロゴ.png" alt="ニコふぁんステーション#1(2024/9/7放送)"><span class="link dim dark-blue">#1(2024/9/7放送/ゲスト:姫カットさん)</span></a></div>        
             </div>
@@ -63,22 +70,5 @@
             <p>©2024 HIGASHIIKE Naga</p>
         </div>
     </footer>
-
-    <script>
-         document.addEventListener('DOMContentLoaded', function() {
-         var elems = document.querySelectorAll('.slider');
-         var instances = M.Slider.init(elems, {
-      // specify options here
-      /** Optional function which generates ARIA label for each indicator */
-      indicatorLabelFunc: (idx, current) => {
-        let label = "Go to slide " + idx;
-        if (current) {
-          label = label + " (Current)";
-        }
-        return label;
-      }
-     });
-     });
-    </script>
 </body>
 </html>
